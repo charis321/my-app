@@ -1,0 +1,11 @@
+.todo_container{
+    
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.2s ease-in-out;
+}

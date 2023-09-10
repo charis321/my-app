@@ -1,0 +1,10 @@
+.todo_addItem{
+    display: flex;
+}
+.todo_addItem input{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}

@@ -1,0 +1,39 @@
+.todo_item{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #eee;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+}
+
+.todo_item label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+.todo_item span{
+    line-height: 100%;
+    font-size: 1.2em;
+}
+.todo_item input{
+    margin: 0 10px;
+}
+.btn-danger{
+    background-color: #ff0000;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 20px 10px;
+    
+}

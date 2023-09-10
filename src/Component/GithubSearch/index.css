@@ -1,0 +1,21 @@
+li{
+    list-style: none; 
+}
+ul{
+    padding-inline-start: 0;
+}
+.ghs-container{
+    width: 50vw;
+}
+.ghs-list{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+.ghs-card{
+    width: 30%;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
